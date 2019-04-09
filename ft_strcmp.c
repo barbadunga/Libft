@@ -1,18 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: AlexandrSergeev <marvin@42.fr>             +#+  +:+       +#+        */
+/*   By: mshagga <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/08 11:15:20 by AlexandrSergeev   #+#    #+#             */
-/*   Updated: 2019/04/08 11:15:20 by AlexandrSergeev  ###   ########.fr       */
+/*   Created: 2019/04/09 23:08:24 by mshagga           #+#    #+#             */
+/*   Updated: 2019/04/09 23:08:24 by mshagga          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putchar(char c)
+int ft_strcmp(char *s1, char *s2)
 {
-	write(1, &c, 1);
+	while (*s1 == *s2 && *s1 && *s2)
+	{
+		if (*s1 == '\0' && *s2 == '\0')
+			return (0);
+		s1++;
+		s2++;
+	}
+	return (*s1 - *s2);
 }

@@ -1,18 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_isspace.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: AlexandrSergeev <marvin@42.fr>             +#+  +:+       +#+        */
+/*   By: mshagga <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/08 11:15:20 by AlexandrSergeev   #+#    #+#             */
-/*   Updated: 2019/04/08 11:15:20 by AlexandrSergeev  ###   ########.fr       */
+/*   Created: 2019/04/09 21:58:43 by mshagga           #+#    #+#             */
+/*   Updated: 2019/04/09 21:58:43 by mshagga          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putchar(char c)
+int	ft_isspace(int c)
 {
-	write(1, &c, 1);
+	if (c == ' ' || c == '\t' || c == '\n' || c == '\v' || c == '\f'
+																|| c == '\r')
+		return (1);
+	return (0);
 }

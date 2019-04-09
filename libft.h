@@ -13,6 +13,16 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 
-typedef unsigned long size_t;
+# include <unistd.h>
+# include <stdlib.h>
+
+void	ft_putchar(char c);
+int		ft_tolower(int c);
+int		ft_isalpha(int c);
+int		ft_isdigit(int c);
+int		ft_isspace(int c);
+int 	ft_toupper(int c);
+int		ft_tolower(int c);
+int 	ft_atoi(char *str);
 
 #endif

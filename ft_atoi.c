@@ -1,20 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mshagga <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/09 21:42:19 by mshagga           #+#    #+#             */
-/*   Updated: 2019/04/09 21:42:19 by mshagga          ###   ########.fr       */
+/*   Created: 2019/04/09 21:50:39 by mshagga           #+#    #+#             */
+/*   Updated: 2019/04/09 21:50:39 by mshagga          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isdigit(int c)
+int	ft_atoi(char *str)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
-	return (0);
+	int		num;
+	int		sign;
+	char	*ptr;
+
+	ptr = str;
+	sign = 1;
+	num = 0;
+	while (ft_isspace(*ptr))
+		ptr++;
+	if (*ptr == '-')
+	{
+		sign = -1;
+		ptr++;
+	}
+	if (*ptr == '+')
+		ptr++;
+	while (ft_isdigit(*ptr))
+		num = num * 10 + *ptr++ - '0';
+	return (sign * num);
 }
