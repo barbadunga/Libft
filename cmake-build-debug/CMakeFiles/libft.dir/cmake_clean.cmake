@@ -18,6 +18,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/libft.dir/ft_strncmp.c.o"
   "CMakeFiles/libft.dir/ft_strcmp.c.o"
   "CMakeFiles/libft.dir/ft_strnstr.c.o"
+  "CMakeFiles/libft.dir/ft_putstr.c.o"
   "libft.pdb"
   "libft"
 )

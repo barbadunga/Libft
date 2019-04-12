@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/mshagga/CLionProjects/libft/ft_memcmp.c" "/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_memcmp.c.o"
   "/Users/mshagga/CLionProjects/libft/ft_memcpy.c" "/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_memcpy.c.o"
   "/Users/mshagga/CLionProjects/libft/ft_putchar.c" "/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_putchar.c.o"
+  "/Users/mshagga/CLionProjects/libft/ft_putstr.c" "/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_putstr.c.o"
   "/Users/mshagga/CLionProjects/libft/ft_strcmp.c" "/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_strcmp.c.o"
   "/Users/mshagga/CLionProjects/libft/ft_strlen.c" "/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_strlen.c.o"
   "/Users/mshagga/CLionProjects/libft/ft_strncmp.c" "/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_strncmp.c.o"

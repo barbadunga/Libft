@@ -1,34 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memchr.c                                        :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: AlexandrSergeev <marvin@42.fr>             +#+  +:+       +#+        */
+/*   By: mshagga <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/09 15:06:38 by AlexandrSergeev   #+#    #+#             */
-/*   Updated: 2019/04/09 15:06:38 by AlexandrSergeev  ###   ########.fr       */
+/*   Created: 2019/04/12 19:23:10 by mshagga           #+#    #+#             */
+/*   Updated: 2019/04/12 19:23:10 by mshagga          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
 
-void	*ft_memchr(void *str, int c, size_t n)
+void	ft_putstr(char *str)
 {
 	char *ptr;
 
-	ptr = (char*)str;
-	while (*ptr != c && n-- > 0)
-		ptr++;
-	return ((void*)ptr);
-}
-
-int main()
-{
-	char *ptr;
-	char str[] = "new string";
-
-	ptr = memchr(str, 'q', 0);
-	ft_putstr(ptr);
-	return (0);
+	ptr = str;
+	while (*ptr)
+		ft_putchar(*ptr++);
 }

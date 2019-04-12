@@ -119,6 +119,9 @@
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_putchar.c">
 			<Option target="libft"/>
 		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_putstr.c">
+			<Option target="libft"/>
+		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strcmp.c">
 			<Option target="libft"/>
 		</Unit>

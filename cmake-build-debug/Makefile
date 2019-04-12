@@ -474,6 +474,33 @@ ft_putchar.c.s:
 	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putchar.c.s
 .PHONY : ft_putchar.c.s
 
+ft_putstr.o: ft_putstr.c.o
+
+.PHONY : ft_putstr.o
+
+# target to build an object file
+ft_putstr.c.o:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putstr.c.o
+.PHONY : ft_putstr.c.o
+
+ft_putstr.i: ft_putstr.c.i
+
+.PHONY : ft_putstr.i
+
+# target to preprocess a source file
+ft_putstr.c.i:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putstr.c.i
+.PHONY : ft_putstr.c.i
+
+ft_putstr.s: ft_putstr.c.s
+
+.PHONY : ft_putstr.s
+
+# target to generate assembly for a file
+ft_putstr.c.s:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putstr.c.s
+.PHONY : ft_putstr.c.s
+
 ft_strcmp.o: ft_strcmp.c.o
 
 .PHONY : ft_strcmp.o
@@ -684,6 +711,9 @@ help:
 	@echo "... ft_putchar.o"
 	@echo "... ft_putchar.i"
 	@echo "... ft_putchar.s"
+	@echo "... ft_putstr.o"
+	@echo "... ft_putstr.i"
+	@echo "... ft_putstr.s"
 	@echo "... ft_strcmp.o"
 	@echo "... ft_strcmp.i"
 	@echo "... ft_strcmp.s"
