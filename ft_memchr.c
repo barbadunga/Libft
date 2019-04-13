@@ -28,7 +28,7 @@ int main()
 	char *ptr;
 	char str[] = "new string";
 
-	ptr = memchr(str, 'q', 0);
+	ptr = ft_memchr(str, 'q', 1);
 	ft_putstr(ptr);
 	return (0);
 }

@@ -317,6 +317,97 @@ CMakeFiles/libft.dir/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_putstr.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mshagga/CLionProjects/libft/ft_putstr.c -o CMakeFiles/libft.dir/ft_putstr.c.s
 
+CMakeFiles/libft.dir/ft_memset.c.o: CMakeFiles/libft.dir/flags.make
+CMakeFiles/libft.dir/ft_memset.c.o: ../ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/libft.dir/ft_memset.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memset.c.o   -c /Users/mshagga/CLionProjects/libft/ft_memset.c
+
+CMakeFiles/libft.dir/ft_memset.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memset.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mshagga/CLionProjects/libft/ft_memset.c > CMakeFiles/libft.dir/ft_memset.c.i
+
+CMakeFiles/libft.dir/ft_memset.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memset.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mshagga/CLionProjects/libft/ft_memset.c -o CMakeFiles/libft.dir/ft_memset.c.s
+
+CMakeFiles/libft.dir/ft_memmove.c.o: CMakeFiles/libft.dir/flags.make
+CMakeFiles/libft.dir/ft_memmove.c.o: ../ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/libft.dir/ft_memmove.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memmove.c.o   -c /Users/mshagga/CLionProjects/libft/ft_memmove.c
+
+CMakeFiles/libft.dir/ft_memmove.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memmove.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mshagga/CLionProjects/libft/ft_memmove.c > CMakeFiles/libft.dir/ft_memmove.c.i
+
+CMakeFiles/libft.dir/ft_memmove.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memmove.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mshagga/CLionProjects/libft/ft_memmove.c -o CMakeFiles/libft.dir/ft_memmove.c.s
+
+CMakeFiles/libft.dir/ft_strdup.c.o: CMakeFiles/libft.dir/flags.make
+CMakeFiles/libft.dir/ft_strdup.c.o: ../ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/libft.dir/ft_strdup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strdup.c.o   -c /Users/mshagga/CLionProjects/libft/ft_strdup.c
+
+CMakeFiles/libft.dir/ft_strdup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strdup.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mshagga/CLionProjects/libft/ft_strdup.c > CMakeFiles/libft.dir/ft_strdup.c.i
+
+CMakeFiles/libft.dir/ft_strdup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strdup.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mshagga/CLionProjects/libft/ft_strdup.c -o CMakeFiles/libft.dir/ft_strdup.c.s
+
+CMakeFiles/libft.dir/ft_strcpy.c.o: CMakeFiles/libft.dir/flags.make
+CMakeFiles/libft.dir/ft_strcpy.c.o: ../ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/libft.dir/ft_strcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strcpy.c.o   -c /Users/mshagga/CLionProjects/libft/ft_strcpy.c
+
+CMakeFiles/libft.dir/ft_strcpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strcpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mshagga/CLionProjects/libft/ft_strcpy.c > CMakeFiles/libft.dir/ft_strcpy.c.i
+
+CMakeFiles/libft.dir/ft_strcpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strcpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mshagga/CLionProjects/libft/ft_strcpy.c -o CMakeFiles/libft.dir/ft_strcpy.c.s
+
+CMakeFiles/libft.dir/ft_strncpy.c.o: CMakeFiles/libft.dir/flags.make
+CMakeFiles/libft.dir/ft_strncpy.c.o: ../ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/libft.dir/ft_strncpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strncpy.c.o   -c /Users/mshagga/CLionProjects/libft/ft_strncpy.c
+
+CMakeFiles/libft.dir/ft_strncpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strncpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mshagga/CLionProjects/libft/ft_strncpy.c > CMakeFiles/libft.dir/ft_strncpy.c.i
+
+CMakeFiles/libft.dir/ft_strncpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strncpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mshagga/CLionProjects/libft/ft_strncpy.c -o CMakeFiles/libft.dir/ft_strncpy.c.s
+
+CMakeFiles/libft.dir/ft_strcat.c.o: CMakeFiles/libft.dir/flags.make
+CMakeFiles/libft.dir/ft_strcat.c.o: ../ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/libft.dir/ft_strcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strcat.c.o   -c /Users/mshagga/CLionProjects/libft/ft_strcat.c
+
+CMakeFiles/libft.dir/ft_strcat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strcat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mshagga/CLionProjects/libft/ft_strcat.c > CMakeFiles/libft.dir/ft_strcat.c.i
+
+CMakeFiles/libft.dir/ft_strcat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strcat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mshagga/CLionProjects/libft/ft_strcat.c -o CMakeFiles/libft.dir/ft_strcat.c.s
+
+CMakeFiles/libft.dir/ft_strncat.c.o: CMakeFiles/libft.dir/flags.make
+CMakeFiles/libft.dir/ft_strncat.c.o: ../ft_strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/libft.dir/ft_strncat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strncat.c.o   -c /Users/mshagga/CLionProjects/libft/ft_strncat.c
+
+CMakeFiles/libft.dir/ft_strncat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strncat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mshagga/CLionProjects/libft/ft_strncat.c > CMakeFiles/libft.dir/ft_strncat.c.i
+
+CMakeFiles/libft.dir/ft_strncat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strncat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mshagga/CLionProjects/libft/ft_strncat.c -o CMakeFiles/libft.dir/ft_strncat.c.s
+
 # Object files for target libft
 libft_OBJECTS = \
 "CMakeFiles/libft.dir/ft_atoi.c.o" \
@@ -338,7 +429,14 @@ libft_OBJECTS = \
 "CMakeFiles/libft.dir/ft_strncmp.c.o" \
 "CMakeFiles/libft.dir/ft_strcmp.c.o" \
 "CMakeFiles/libft.dir/ft_strnstr.c.o" \
-"CMakeFiles/libft.dir/ft_putstr.c.o"
+"CMakeFiles/libft.dir/ft_putstr.c.o" \
+"CMakeFiles/libft.dir/ft_memset.c.o" \
+"CMakeFiles/libft.dir/ft_memmove.c.o" \
+"CMakeFiles/libft.dir/ft_strdup.c.o" \
+"CMakeFiles/libft.dir/ft_strcpy.c.o" \
+"CMakeFiles/libft.dir/ft_strncpy.c.o" \
+"CMakeFiles/libft.dir/ft_strcat.c.o" \
+"CMakeFiles/libft.dir/ft_strncat.c.o"
 
 # External object files for target libft
 libft_EXTERNAL_OBJECTS =
@@ -363,9 +461,16 @@ libft: CMakeFiles/libft.dir/ft_strncmp.c.o
 libft: CMakeFiles/libft.dir/ft_strcmp.c.o
 libft: CMakeFiles/libft.dir/ft_strnstr.c.o
 libft: CMakeFiles/libft.dir/ft_putstr.c.o
+libft: CMakeFiles/libft.dir/ft_memset.c.o
+libft: CMakeFiles/libft.dir/ft_memmove.c.o
+libft: CMakeFiles/libft.dir/ft_strdup.c.o
+libft: CMakeFiles/libft.dir/ft_strcpy.c.o
+libft: CMakeFiles/libft.dir/ft_strncpy.c.o
+libft: CMakeFiles/libft.dir/ft_strcat.c.o
+libft: CMakeFiles/libft.dir/ft_strncat.c.o
 libft: CMakeFiles/libft.dir/build.make
 libft: CMakeFiles/libft.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable libft"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking C executable libft"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libft.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

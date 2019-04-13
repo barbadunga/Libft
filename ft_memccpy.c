@@ -16,17 +16,15 @@
 
 void	*ft_memccpy(void *dst, void *src, int c, size_t n)
 {
-	unsigned char	*dst8;
-	unsigned char	*src8;
+	unsigned char *dst8;
+	unsigned char *src8;
 
-	dst8 = (unsigned char*)dst;
-	src8 = (unsigned char*)src;
-	while (*src8 != c && n-- > 0)
+	dst8 = (unsigned char *)dst;
+	src8 = (unsigned char *)src;
+	while (n-- > 0)
 	{
-		*dst8++ = *src8++;
-		printf("%s\n", dst);
-		if (*(src8 - 1) == c)
-			return (dst8);
+		if ((*dst8++ = *src8++) == c)
+			return (dst8 + 1);
 	}
 	return (NULL);
 }

@@ -1,22 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_bzero.c                                         :+:      :+:    :+:   */
+/*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mshagga <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/07 21:03:13 by mshagga           #+#    #+#             */
-/*   Updated: 2019/04/07 21:03:13 by mshagga          ###   ########.fr       */
+/*   Created: 2019/04/13 18:07:12 by mshagga           #+#    #+#             */
+/*   Updated: 2019/04/13 18:07:12 by mshagga          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_bzero(void *str, size_t n)
+char *ft_strcat(char *s1, char *s2)
 {
 	char *ptr;
 
-	ptr = (char*)str;
-	while (n-- > 0)
-		*ptr++ = '\0';
+	ptr = s1;
+	while (*ptr)
+		ptr++;
+	ft_strcpy(ptr, s2);
+	return (s1);
 }

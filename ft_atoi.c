@@ -12,11 +12,11 @@
 
 #include "libft.h"
 
-int	ft_atoi(char *str)
+int	ft_atoi(const char *str)
 {
-	int		num;
-	int		sign;
-	char	*ptr;
+	int			num;
+	int			sign;
+	const char	*ptr;
 
 	ptr = str;
 	sign = 1;
@@ -33,4 +33,10 @@ int	ft_atoi(char *str)
 	while (ft_isdigit(*ptr))
 		num = num * 10 + *ptr++ - '0';
 	return (sign * num);
+}
+
+int main()
+{
+	printf("%\n", ft_atoi("-922"));
+	return (0);
 }

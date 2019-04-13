@@ -116,19 +116,40 @@
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_memcpy.c">
 			<Option target="libft"/>
 		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_memmove.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_memset.c">
+			<Option target="libft"/>
+		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_putchar.c">
 			<Option target="libft"/>
 		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_putstr.c">
 			<Option target="libft"/>
 		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strcat.c">
+			<Option target="libft"/>
+		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strcmp.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strcpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strdup.c">
 			<Option target="libft"/>
 		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strlen.c">
 			<Option target="libft"/>
 		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strncat.c">
+			<Option target="libft"/>
+		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strncmp.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strncpy.c">
 			<Option target="libft"/>
 		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strnstr.c">
