@@ -1,25 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mshagga <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/13 17:53:52 by mshagga           #+#    #+#             */
-/*   Updated: 2019/04/13 17:53:52 by mshagga          ###   ########.fr       */
+/*   Created: 2019/04/14 14:51:56 by mshagga           #+#    #+#             */
+/*   Updated: 2019/04/14 14:51:56 by mshagga          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strcpy(char *dst, const char *src)
+size_t	ft_strlcat(char *dst, const char *src, size_t n)
 {
-	char *dst8;
-	const char *src8;
+	char	*ptr;
+	size_t 	len_dst;
+	size_t	size_buf;
 
-	dst8 = dst;
-	src8 = src;
-	while ((*dst8++ = *src8++) != '\0')
-		;
-	return (dst);
+	size_buf = n;
+	ptr = dst;
+	while (*ptr && n > 0)
+	{
+		ptr++;
+		n--;
+	}
+	if (n == 0)
+		return (size_buf + ft_strlen(src));
+	len_dst = size_buf - n;
+	ft_strncpy(ptr, src, n - 1);
+	*(ptr + n) = '\0';
+	return (len_dst + ft_strlen(src));
 }

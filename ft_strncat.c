@@ -12,16 +12,14 @@
 
 #include "libft.h"
 
-char	*ft_strncat(char *s1, char *s2, size_t n)
+char	*ft_strncat(char *s1, const char *s2, size_t n)
 {
-	char *ptr;
+	char	*ptr;
 
 	ptr = s1;
-	while (n > 0 && *ptr)
-	{
+	while (n-- > 0 && *ptr)
 		ptr++;
-		n--;
-	}
-	ft_strncpy(ptr, s2, n);
+	if (!*ptr)
+		ft_strncpy(ptr, s2, n);
 	return (s1);
 }

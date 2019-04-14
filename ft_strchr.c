@@ -1,25 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mshagga <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/13 17:53:52 by mshagga           #+#    #+#             */
-/*   Updated: 2019/04/13 17:53:52 by mshagga          ###   ########.fr       */
+/*   Created: 2019/04/14 16:02:26 by mshagga           #+#    #+#             */
+/*   Updated: 2019/04/14 16:02:26 by mshagga          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strcpy(char *dst, const char *src)
+char	*ft_strchr(const char *s, int c)
 {
-	char *dst8;
-	const char *src8;
+	char *ptr;
 
-	dst8 = dst;
-	src8 = src;
-	while ((*dst8++ = *src8++) != '\0')
-		;
-	return (dst);
+	ptr = (char *)s;
+	while (*ptr)
+	{
+		if (*ptr == c )
+			return (ptr);
+		ptr++;
+	}
+	return (NULL);
 }

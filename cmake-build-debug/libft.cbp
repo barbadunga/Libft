@@ -104,6 +104,9 @@
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_isspace.c">
 			<Option target="libft"/>
 		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_memalloc.c">
+			<Option target="libft"/>
+		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_memccpy.c">
 			<Option target="libft"/>
 		</Unit>
@@ -114,6 +117,9 @@
 			<Option target="libft"/>
 		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_memcpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_memdel.c">
 			<Option target="libft"/>
 		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_memmove.c">
@@ -131,16 +137,37 @@
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strcat.c">
 			<Option target="libft"/>
 		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strchr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strclr.c">
+			<Option target="libft"/>
+		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strcmp.c">
 			<Option target="libft"/>
 		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strcpy.c">
 			<Option target="libft"/>
 		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strdel.c">
+			<Option target="libft"/>
+		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strdup.c">
 			<Option target="libft"/>
 		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strequ.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_striter.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strlcat.c">
+			<Option target="libft"/>
+		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strlen.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strmap.c">
 			<Option target="libft"/>
 		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strncat.c">
@@ -152,7 +179,16 @@
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strncpy.c">
 			<Option target="libft"/>
 		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strnew.c">
+			<Option target="libft"/>
+		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strnstr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strrchr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strstr.c">
 			<Option target="libft"/>
 		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_tolower.c">

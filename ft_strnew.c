@@ -1,25 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mshagga <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/13 17:53:52 by mshagga           #+#    #+#             */
-/*   Updated: 2019/04/13 17:53:52 by mshagga          ###   ########.fr       */
+/*   Created: 2019/04/14 17:18:57 by mshagga           #+#    #+#             */
+/*   Updated: 2019/04/14 17:18:57 by mshagga          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strcpy(char *dst, const char *src)
+char	*ft_strnew(size_t size)
 {
-	char *dst8;
-	const char *src8;
+	char	*new;
 
-	dst8 = dst;
-	src8 = src;
-	while ((*dst8++ = *src8++) != '\0')
-		;
-	return (dst);
+	new = (char *)malloc(size + 1);
+	ft_bzero(new, size + 1);
+	return (new);
 }
