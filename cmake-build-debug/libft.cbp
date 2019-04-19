@@ -161,6 +161,12 @@
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_striter.c">
 			<Option target="libft"/>
 		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_striteri.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strjoin.c">
+			<Option target="libft"/>
+		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strlcat.c">
 			<Option target="libft"/>
 		</Unit>
@@ -168,6 +174,9 @@
 			<Option target="libft"/>
 		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strmap.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strmapi.c">
 			<Option target="libft"/>
 		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strncat.c">
@@ -179,6 +188,9 @@
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strncpy.c">
 			<Option target="libft"/>
 		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strnequ.c">
+			<Option target="libft"/>
+		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strnew.c">
 			<Option target="libft"/>
 		</Unit>
@@ -188,7 +200,16 @@
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strrchr.c">
 			<Option target="libft"/>
 		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strslpit.c">
+			<Option target="libft"/>
+		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strstr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strsub.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strtrim.c">
 			<Option target="libft"/>
 		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_tolower.c">

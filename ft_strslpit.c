@@ -1,28 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*   ft_strslpit.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mshagga <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/14 16:02:26 by mshagga           #+#    #+#             */
-/*   Updated: 2019/04/14 16:02:26 by mshagga          ###   ########.fr       */
+/*   Created: 2019/04/19 18:24:03 by mshagga           #+#    #+#             */
+/*   Updated: 2019/04/19 18:24:03 by mshagga          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strchr(const char *s, int c)
+char	**ft_strsplit(char const *s, char c)
 {
-	char *ptr;
 
-	ptr = (char *)s;
-	while (*ptr)
-	{
-		if (*ptr == c )
-			return (ptr);
-		ptr++;
-	}
-	return (NULL);
 }
-

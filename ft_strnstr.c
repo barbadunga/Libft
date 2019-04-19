@@ -14,3 +14,9 @@
 #include <stdio.h>
 #include <string.h>
 
+char	*ft_strnstr(const char *s1, const char *s2, size_t len)
+{
+	len = 0;
+	ft_strlen(s2);
+	return ((char*)s1);
+}

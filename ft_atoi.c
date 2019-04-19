@@ -34,9 +34,3 @@ int	ft_atoi(const char *str)
 		num = num * 10 + *ptr++ - '0';
 	return (sign * num);
 }
-
-int main()
-{
-	printf("%\n", ft_atoi("-922"));
-	return (0);
-}

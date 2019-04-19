@@ -32,11 +32,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-int main()
-{
-	char str[] = "aabbcc";
-
-	printf("%s\n", ft_strrchr(str, 'b'));
-	return (0);
-}
