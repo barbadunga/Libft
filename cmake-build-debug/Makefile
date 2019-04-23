@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /Users/mshagga/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /Users/mshagga/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/AlexandrSergeev/git/Libft
+CMAKE_SOURCE_DIR = /Users/mshagga/CLionProjects/libft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/AlexandrSergeev/git/Libft/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mshagga/CLionProjects/libft/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/AlexandrSergeev/git/Libft/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/mshagga/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Users/mshagga/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AlexandrSergeev/git/Libft/cmake-build-debug/CMakeFiles /Users/AlexandrSergeev/git/Libft/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles /Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AlexandrSergeev/git/Libft/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -339,6 +339,33 @@ ft_isspace.c.s:
 	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_isspace.c.s
 .PHONY : ft_isspace.c.s
 
+ft_itoa.o: ft_itoa.c.o
+
+.PHONY : ft_itoa.o
+
+# target to build an object file
+ft_itoa.c.o:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_itoa.c.o
+.PHONY : ft_itoa.c.o
+
+ft_itoa.i: ft_itoa.c.i
+
+.PHONY : ft_itoa.i
+
+# target to preprocess a source file
+ft_itoa.c.i:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_itoa.c.i
+.PHONY : ft_itoa.c.i
+
+ft_itoa.s: ft_itoa.c.s
+
+.PHONY : ft_itoa.s
+
+# target to generate assembly for a file
+ft_itoa.c.s:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_itoa.c.s
+.PHONY : ft_itoa.c.s
+
 ft_memalloc.o: ft_memalloc.c.o
 
 .PHONY : ft_memalloc.o
@@ -582,6 +609,141 @@ ft_putchar.c.s:
 	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putchar.c.s
 .PHONY : ft_putchar.c.s
 
+ft_putchar_fd.o: ft_putchar_fd.c.o
+
+.PHONY : ft_putchar_fd.o
+
+# target to build an object file
+ft_putchar_fd.c.o:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putchar_fd.c.o
+.PHONY : ft_putchar_fd.c.o
+
+ft_putchar_fd.i: ft_putchar_fd.c.i
+
+.PHONY : ft_putchar_fd.i
+
+# target to preprocess a source file
+ft_putchar_fd.c.i:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putchar_fd.c.i
+.PHONY : ft_putchar_fd.c.i
+
+ft_putchar_fd.s: ft_putchar_fd.c.s
+
+.PHONY : ft_putchar_fd.s
+
+# target to generate assembly for a file
+ft_putchar_fd.c.s:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putchar_fd.c.s
+.PHONY : ft_putchar_fd.c.s
+
+ft_putendl.o: ft_putendl.c.o
+
+.PHONY : ft_putendl.o
+
+# target to build an object file
+ft_putendl.c.o:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putendl.c.o
+.PHONY : ft_putendl.c.o
+
+ft_putendl.i: ft_putendl.c.i
+
+.PHONY : ft_putendl.i
+
+# target to preprocess a source file
+ft_putendl.c.i:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putendl.c.i
+.PHONY : ft_putendl.c.i
+
+ft_putendl.s: ft_putendl.c.s
+
+.PHONY : ft_putendl.s
+
+# target to generate assembly for a file
+ft_putendl.c.s:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putendl.c.s
+.PHONY : ft_putendl.c.s
+
+ft_putendl_fd.o: ft_putendl_fd.c.o
+
+.PHONY : ft_putendl_fd.o
+
+# target to build an object file
+ft_putendl_fd.c.o:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putendl_fd.c.o
+.PHONY : ft_putendl_fd.c.o
+
+ft_putendl_fd.i: ft_putendl_fd.c.i
+
+.PHONY : ft_putendl_fd.i
+
+# target to preprocess a source file
+ft_putendl_fd.c.i:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putendl_fd.c.i
+.PHONY : ft_putendl_fd.c.i
+
+ft_putendl_fd.s: ft_putendl_fd.c.s
+
+.PHONY : ft_putendl_fd.s
+
+# target to generate assembly for a file
+ft_putendl_fd.c.s:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putendl_fd.c.s
+.PHONY : ft_putendl_fd.c.s
+
+ft_putnbr.o: ft_putnbr.c.o
+
+.PHONY : ft_putnbr.o
+
+# target to build an object file
+ft_putnbr.c.o:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putnbr.c.o
+.PHONY : ft_putnbr.c.o
+
+ft_putnbr.i: ft_putnbr.c.i
+
+.PHONY : ft_putnbr.i
+
+# target to preprocess a source file
+ft_putnbr.c.i:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putnbr.c.i
+.PHONY : ft_putnbr.c.i
+
+ft_putnbr.s: ft_putnbr.c.s
+
+.PHONY : ft_putnbr.s
+
+# target to generate assembly for a file
+ft_putnbr.c.s:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putnbr.c.s
+.PHONY : ft_putnbr.c.s
+
+ft_putnbr_fd.o: ft_putnbr_fd.c.o
+
+.PHONY : ft_putnbr_fd.o
+
+# target to build an object file
+ft_putnbr_fd.c.o:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putnbr_fd.c.o
+.PHONY : ft_putnbr_fd.c.o
+
+ft_putnbr_fd.i: ft_putnbr_fd.c.i
+
+.PHONY : ft_putnbr_fd.i
+
+# target to preprocess a source file
+ft_putnbr_fd.c.i:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putnbr_fd.c.i
+.PHONY : ft_putnbr_fd.c.i
+
+ft_putnbr_fd.s: ft_putnbr_fd.c.s
+
+.PHONY : ft_putnbr_fd.s
+
+# target to generate assembly for a file
+ft_putnbr_fd.c.s:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putnbr_fd.c.s
+.PHONY : ft_putnbr_fd.c.s
+
 ft_putstr.o: ft_putstr.c.o
 
 .PHONY : ft_putstr.o
@@ -608,6 +770,33 @@ ft_putstr.s: ft_putstr.c.s
 ft_putstr.c.s:
 	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putstr.c.s
 .PHONY : ft_putstr.c.s
+
+ft_putstr_fd.o: ft_putstr_fd.c.o
+
+.PHONY : ft_putstr_fd.o
+
+# target to build an object file
+ft_putstr_fd.c.o:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putstr_fd.c.o
+.PHONY : ft_putstr_fd.c.o
+
+ft_putstr_fd.i: ft_putstr_fd.c.i
+
+.PHONY : ft_putstr_fd.i
+
+# target to preprocess a source file
+ft_putstr_fd.c.i:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putstr_fd.c.i
+.PHONY : ft_putstr_fd.c.i
+
+ft_putstr_fd.s: ft_putstr_fd.c.s
+
+.PHONY : ft_putstr_fd.s
+
+# target to generate assembly for a file
+ft_putstr_fd.c.s:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_putstr_fd.c.s
+.PHONY : ft_putstr_fd.c.s
 
 ft_strcat.o: ft_strcat.c.o
 
@@ -1203,32 +1392,32 @@ ft_strrchr.c.s:
 	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_strrchr.c.s
 .PHONY : ft_strrchr.c.s
 
-ft_strslpit.o: ft_strslpit.c.o
+ft_strsplit.o: ft_strsplit.c.o
 
-.PHONY : ft_strslpit.o
+.PHONY : ft_strsplit.o
 
 # target to build an object file
-ft_strslpit.c.o:
-	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_strslpit.c.o
-.PHONY : ft_strslpit.c.o
+ft_strsplit.c.o:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_strsplit.c.o
+.PHONY : ft_strsplit.c.o
 
-ft_strslpit.i: ft_strslpit.c.i
+ft_strsplit.i: ft_strsplit.c.i
 
-.PHONY : ft_strslpit.i
+.PHONY : ft_strsplit.i
 
 # target to preprocess a source file
-ft_strslpit.c.i:
-	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_strslpit.c.i
-.PHONY : ft_strslpit.c.i
+ft_strsplit.c.i:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_strsplit.c.i
+.PHONY : ft_strsplit.c.i
 
-ft_strslpit.s: ft_strslpit.c.s
+ft_strsplit.s: ft_strsplit.c.s
 
-.PHONY : ft_strslpit.s
+.PHONY : ft_strsplit.s
 
 # target to generate assembly for a file
-ft_strslpit.c.s:
-	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_strslpit.c.s
-.PHONY : ft_strslpit.c.s
+ft_strsplit.c.s:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_strsplit.c.s
+.PHONY : ft_strsplit.c.s
 
 ft_strstr.o: ft_strstr.c.o
 
@@ -1398,6 +1587,9 @@ help:
 	@echo "... ft_isspace.o"
 	@echo "... ft_isspace.i"
 	@echo "... ft_isspace.s"
+	@echo "... ft_itoa.o"
+	@echo "... ft_itoa.i"
+	@echo "... ft_itoa.s"
 	@echo "... ft_memalloc.o"
 	@echo "... ft_memalloc.i"
 	@echo "... ft_memalloc.s"
@@ -1425,9 +1617,27 @@ help:
 	@echo "... ft_putchar.o"
 	@echo "... ft_putchar.i"
 	@echo "... ft_putchar.s"
+	@echo "... ft_putchar_fd.o"
+	@echo "... ft_putchar_fd.i"
+	@echo "... ft_putchar_fd.s"
+	@echo "... ft_putendl.o"
+	@echo "... ft_putendl.i"
+	@echo "... ft_putendl.s"
+	@echo "... ft_putendl_fd.o"
+	@echo "... ft_putendl_fd.i"
+	@echo "... ft_putendl_fd.s"
+	@echo "... ft_putnbr.o"
+	@echo "... ft_putnbr.i"
+	@echo "... ft_putnbr.s"
+	@echo "... ft_putnbr_fd.o"
+	@echo "... ft_putnbr_fd.i"
+	@echo "... ft_putnbr_fd.s"
 	@echo "... ft_putstr.o"
 	@echo "... ft_putstr.i"
 	@echo "... ft_putstr.s"
+	@echo "... ft_putstr_fd.o"
+	@echo "... ft_putstr_fd.i"
+	@echo "... ft_putstr_fd.s"
 	@echo "... ft_strcat.o"
 	@echo "... ft_strcat.i"
 	@echo "... ft_strcat.s"
@@ -1494,9 +1704,9 @@ help:
 	@echo "... ft_strrchr.o"
 	@echo "... ft_strrchr.i"
 	@echo "... ft_strrchr.s"
-	@echo "... ft_strslpit.o"
-	@echo "... ft_strslpit.i"
-	@echo "... ft_strslpit.s"
+	@echo "... ft_strsplit.o"
+	@echo "... ft_strsplit.i"
+	@echo "... ft_strsplit.s"
 	@echo "... ft_strstr.o"
 	@echo "... ft_strstr.i"
 	@echo "... ft_strstr.s"

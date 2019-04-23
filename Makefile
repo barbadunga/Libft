@@ -58,6 +58,14 @@ SOURCES = ft_atoi.c \
     ft_tolower.c \
     ft_toupper.c \
     ft_strtrim.c \
+    ft_strsplit.c \
+    ft_itoa.c \
+    ft_putendl.c \
+    ft_putnbr.c \
+    ft_putchar_fd.c \
+    ft_putstr_fd.c \
+    ft_putendl_fd.c \
+    ft_putnbr_fd.c \
 
 OBJECTS = $(SOURCES:%.c=%.o)
 

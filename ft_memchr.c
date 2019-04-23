@@ -6,7 +6,7 @@
 /*   By: AlexandrSergeev <marvin@42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/09 15:06:38 by AlexandrSergeev   #+#    #+#             */
-/*   Updated: 2019/04/09 15:06:38 by AlexandrSergeev  ###   ########.fr       */
+/*   Updated: 2019/04/23 16:34:06 by mshagga          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,9 @@ void	*ft_memchr(const void *str, int c, size_t n)
 	char *ptr;
 
 	ptr = (char*)str;
-	while (*ptr != c && n-- > 0)
-	{
+	while (--n > 0 &&  *ptr != c)
 		ptr++;
-		if (*ptr == c)
-			return ((void*)ptr);
-	}
+	if (*ptr == c)
+		return ((void*)ptr);
 	return (NULL);
 }
