@@ -20,7 +20,7 @@ char	*ft_strstr(const char *s1, const char *s2)
 
 	p1 = (char*)s1;
 	p2 = (char*)s2;
-	if (!p2)
+	if (!*p2)
 		return (p1);
 	while (*p1)
 	{

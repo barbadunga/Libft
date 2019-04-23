@@ -8,217 +8,215 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/mshagga/CLionProjects/libft/cmake-build-debug"/>
+				<Option working_dir="/Users/AlexandrSergeev/git/Libft/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/mshagga/CLionProjects/libft/cmake-build-debug"/>
+				<Option working_dir="/Users/AlexandrSergeev/git/Libft/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/mshagga/CLionProjects/libft/cmake-build-debug"/>
+				<Option working_dir="/Users/AlexandrSergeev/git/Libft/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libft">
-				<Option output="/Users/mshagga/CLionProjects/libft/cmake-build-debug/libft" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mshagga/CLionProjects/libft/cmake-build-debug"/>
+				<Option output="/Users/AlexandrSergeev/git/Libft/cmake-build-debug/libft" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/AlexandrSergeev/git/Libft/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 libft"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 libft"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libft/fast">
-				<Option output="/Users/mshagga/CLionProjects/libft/cmake-build-debug/libft" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mshagga/CLionProjects/libft/cmake-build-debug"/>
+				<Option output="/Users/AlexandrSergeev/git/Libft/cmake-build-debug/libft" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/AlexandrSergeev/git/Libft/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 libft/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mshagga/CLionProjects/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 libft/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/AlexandrSergeev/git/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_atoi.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_atoi.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_bzero.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_bzero.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_isalnum.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_isalnum.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_isalpha.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_isalpha.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_isascii.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_isascii.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_isdigit.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_isdigit.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_isprint.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_isprint.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_isspace.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_isspace.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_memalloc.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_memalloc.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_memccpy.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_memccpy.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_memchr.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_memchr.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_memcmp.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_memcmp.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_memcpy.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_memcpy.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_memdel.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_memdel.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_memmove.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_memmove.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_memset.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_memset.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_putchar.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_putchar.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_putstr.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_putstr.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strcat.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strcat.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strchr.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strchr.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strclr.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strclr.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strcmp.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strcmp.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strcpy.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strcpy.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strdel.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strdel.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strdup.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strdup.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strequ.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strequ.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_striter.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_striter.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_striteri.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_striteri.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strjoin.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strjoin.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strlcat.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strlcat.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strlen.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strlen.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strmap.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strmap.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strmapi.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strmapi.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strncat.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strncat.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strncmp.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strncmp.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strncpy.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strncpy.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strnequ.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strnequ.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strnew.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strnew.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strnstr.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strnstr.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strrchr.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strrchr.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strslpit.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strslpit.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strstr.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strstr.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strsub.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strsub.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_strtrim.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_strtrim.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_tolower.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_tolower.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_toupper.c">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/ft_toupper.c">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mshagga/CLionProjects/libft/CMakeLists.txt">
+		<Unit filename="/Users/AlexandrSergeev/git/Libft/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

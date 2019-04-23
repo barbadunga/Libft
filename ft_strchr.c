@@ -22,6 +22,8 @@ char	*ft_strchr(const char *s, int c)
 		if (*ptr == c )
 			return (ptr);
 		ptr++;
+		if (*ptr == c && *ptr == '\0')
+			return (ptr);
 	}
 	return (NULL);
 }

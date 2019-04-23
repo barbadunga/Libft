@@ -58,7 +58,6 @@ SOURCES = ft_atoi.c \
     ft_tolower.c \
     ft_toupper.c \
     ft_strtrim.c \
-    ft_strslpit.c \
 
 OBJECTS = $(SOURCES:%.c=%.o)
 

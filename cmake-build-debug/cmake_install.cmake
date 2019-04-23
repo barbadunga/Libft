@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mshagga/CLionProjects/libft
+# Install script for directory: /Users/AlexandrSergeev/git/Libft
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/mshagga/CLionProjects/libft/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/AlexandrSergeev/git/Libft/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

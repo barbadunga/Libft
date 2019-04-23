@@ -16,6 +16,8 @@ void	ft_putstr(char *str)
 {
 	char *ptr;
 
+	if (!str)
+		return ;
 	ptr = str;
 	while (*ptr)
 		ft_putchar(*ptr++);

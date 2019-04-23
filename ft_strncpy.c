@@ -14,12 +14,17 @@
 
 char	*ft_strncpy(char *dst, const char *src, size_t len)
 {
-	char *dst8;
-	const char *src8;
+	char		*dst8;
+	const char	*src8;
 
 	dst8 = dst;
 	src8 = src;
-	while (len-- > 0 && *src8)
-		*dst8++ = *src8++;
+	while (len-- > 0)
+	{
+		if (*src8)
+			*dst8++ = *src8++;
+		else
+			*dst8++ ='\0';
+	}
 	return (dst);
 }

@@ -14,12 +14,15 @@
 
 char	*ft_strncat(char *s1, const char *s2, size_t n)
 {
-	char	*ptr;
+	char	*p1;
 
-	ptr = s1;
-	while (n-- > 0 && *ptr)
-		ptr++;
-	if (!*ptr)
-		ft_strncpy(ptr, s2, n);
+	p1 = s1;
+	while (*p1 && n-- > 0)
+		p1++;
+	if (!*p1)
+	{
+		ft_strncpy(p1, s2, n);
+		p1[n + 1] = '\0';
+	}
 	return (s1);
 }
