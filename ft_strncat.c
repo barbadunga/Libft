@@ -22,8 +22,10 @@ char	*ft_strncat(char *s1, const char *s2, size_t n)
 	while (*p1)
 		p1++;
 	while (*p2 && n-- > 0)
+	{
 		*p1++ = *p2++;
-	if (!*p2 || n == 0)
-		*p1 = '\0';
+		if (!*p2 || n == 0)
+			*p1 = '\0';
+	}
 	return (s1);
 }

@@ -13,6 +13,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/mshagga/CLionProjects/libft/ft_isprint.c" "/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_isprint.c.o"
   "/Users/mshagga/CLionProjects/libft/ft_isspace.c" "/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_isspace.c.o"
   "/Users/mshagga/CLionProjects/libft/ft_itoa.c" "/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_itoa.c.o"
+  "/Users/mshagga/CLionProjects/libft/ft_lstdelone.c" "/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_lstdelone.c.o"
+  "/Users/mshagga/CLionProjects/libft/ft_lstnew.c" "/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_lstnew.c.o"
   "/Users/mshagga/CLionProjects/libft/ft_memalloc.c" "/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_memalloc.c.o"
   "/Users/mshagga/CLionProjects/libft/ft_memccpy.c" "/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_memccpy.c.o"
   "/Users/mshagga/CLionProjects/libft/ft_memchr.c" "/Users/mshagga/CLionProjects/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_memchr.c.o"

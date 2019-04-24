@@ -11,12 +11,31 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-#include <string.h>
 
 char	*ft_strnstr(const char *s1, const char *s2, size_t len)
 {
-	len = 0;
-	ft_strlen(s2);
-	return ((char*)s1);
+	char	*p1;
+	char	*p2;
+	char	*match;
+
+	p1 = (char*)s1;
+	p2 = (char*)s2;
+	if (!*p2)
+		return (p1);
+	while (*p1 && len--)
+	{
+		if (*p1 != *p2)
+			p1++;
+		else
+		{
+			match = p1;
+			while (*p2++ == *p1++ && len--)
+				if (*p2 == '\0')
+					return (match);
+			p2 = (char*)s2;
+			p1 = match + 1;
+			len += p1 - match;
+		}
+	}
+	return (NULL);
 }

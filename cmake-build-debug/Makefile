@@ -366,6 +366,60 @@ ft_itoa.c.s:
 	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_itoa.c.s
 .PHONY : ft_itoa.c.s
 
+ft_lstdelone.o: ft_lstdelone.c.o
+
+.PHONY : ft_lstdelone.o
+
+# target to build an object file
+ft_lstdelone.c.o:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_lstdelone.c.o
+.PHONY : ft_lstdelone.c.o
+
+ft_lstdelone.i: ft_lstdelone.c.i
+
+.PHONY : ft_lstdelone.i
+
+# target to preprocess a source file
+ft_lstdelone.c.i:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_lstdelone.c.i
+.PHONY : ft_lstdelone.c.i
+
+ft_lstdelone.s: ft_lstdelone.c.s
+
+.PHONY : ft_lstdelone.s
+
+# target to generate assembly for a file
+ft_lstdelone.c.s:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_lstdelone.c.s
+.PHONY : ft_lstdelone.c.s
+
+ft_lstnew.o: ft_lstnew.c.o
+
+.PHONY : ft_lstnew.o
+
+# target to build an object file
+ft_lstnew.c.o:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_lstnew.c.o
+.PHONY : ft_lstnew.c.o
+
+ft_lstnew.i: ft_lstnew.c.i
+
+.PHONY : ft_lstnew.i
+
+# target to preprocess a source file
+ft_lstnew.c.i:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_lstnew.c.i
+.PHONY : ft_lstnew.c.i
+
+ft_lstnew.s: ft_lstnew.c.s
+
+.PHONY : ft_lstnew.s
+
+# target to generate assembly for a file
+ft_lstnew.c.s:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_lstnew.c.s
+.PHONY : ft_lstnew.c.s
+
 ft_memalloc.o: ft_memalloc.c.o
 
 .PHONY : ft_memalloc.o
@@ -1590,6 +1644,12 @@ help:
 	@echo "... ft_itoa.o"
 	@echo "... ft_itoa.i"
 	@echo "... ft_itoa.s"
+	@echo "... ft_lstdelone.o"
+	@echo "... ft_lstdelone.i"
+	@echo "... ft_lstdelone.s"
+	@echo "... ft_lstnew.o"
+	@echo "... ft_lstnew.i"
+	@echo "... ft_lstnew.s"
 	@echo "... ft_memalloc.o"
 	@echo "... ft_memalloc.i"
 	@echo "... ft_memalloc.s"

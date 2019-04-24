@@ -14,8 +14,8 @@
 
 char	*ft_strcpy(char *dst, const char *src)
 {
-	char *dst8;
-	const char *src8;
+	char		*dst8;
+	const char	*src8;
 
 	dst8 = dst;
 	src8 = src;

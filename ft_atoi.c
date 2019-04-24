@@ -23,13 +23,13 @@ int	ft_atoi(const char *str)
 	num = 0;
 	while (ft_isspace(*ptr))
 		ptr++;
-	if (*ptr == '-')
+	if (*ptr == '+' && ft_isdigit(*(ptr + 1)))
+		ptr++;
+	if (*ptr == '-' && ft_isdigit(*(ptr + 1)))
 	{
 		sign = -1;
 		ptr++;
 	}
-	if (*ptr == '+')
-		ptr++;
 	while (ft_isdigit(*ptr))
 		num = num * 10 + *ptr++ - '0';
 	return (sign * num);

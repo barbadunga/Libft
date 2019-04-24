@@ -11,24 +11,17 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-#include <string.h>
 
 char	*ft_strrchr(const char *s, int c)
 {
-	char	*tmp;
 	char	*ptr;
 
-	ptr = (char *)s;
-	tmp = NULL;
-	while (*ptr)
+	ptr = (char*)(ft_strlen(s) + s);
+	while (ptr >= s)
 	{
 		if (*ptr == c)
-			tmp = ptr;
-		if (*ptr == '\0')
-			return (tmp);
-		printf("%c\t%c\n", *ptr, *tmp);
-		ptr++;
+			return (ptr);
+		ptr--;
 	}
 	return (NULL);
 }

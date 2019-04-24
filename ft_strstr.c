@@ -16,7 +16,7 @@ char	*ft_strstr(const char *s1, const char *s2)
 {
 	char	*p1;
 	char	*p2;
-	char 	*match;
+	char	*match;
 
 	p1 = (char*)s1;
 	p2 = (char*)s2;

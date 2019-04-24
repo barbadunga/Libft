@@ -24,7 +24,7 @@ char	*ft_strncpy(char *dst, const char *src, size_t len)
 		if (*src8)
 			*dst8++ = *src8++;
 		else
-			*dst8++ ='\0';
+			*dst8++ = '\0';
 	}
 	return (dst);
 }

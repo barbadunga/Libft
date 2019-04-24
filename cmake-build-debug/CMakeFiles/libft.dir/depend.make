@@ -25,6 +25,12 @@ CMakeFiles/libft.dir/ft_isprint.c.o: ../libft.h
 CMakeFiles/libft.dir/ft_isspace.c.o: ../ft_isspace.c
 CMakeFiles/libft.dir/ft_isspace.c.o: ../libft.h
 
+CMakeFiles/libft.dir/ft_itoa.c.o: ../ft_itoa.c
+CMakeFiles/libft.dir/ft_itoa.c.o: ../libft.h
+
+CMakeFiles/libft.dir/ft_lstnew.c.o: ../ft_lstnew.c
+CMakeFiles/libft.dir/ft_lstnew.c.o: ../libft.h
+
 CMakeFiles/libft.dir/ft_memalloc.c.o: ../ft_memalloc.c
 CMakeFiles/libft.dir/ft_memalloc.c.o: ../libft.h
 
@@ -52,8 +58,26 @@ CMakeFiles/libft.dir/ft_memset.c.o: ../libft.h
 CMakeFiles/libft.dir/ft_putchar.c.o: ../ft_putchar.c
 CMakeFiles/libft.dir/ft_putchar.c.o: ../libft.h
 
+CMakeFiles/libft.dir/ft_putchar_fd.c.o: ../ft_putchar_fd.c
+CMakeFiles/libft.dir/ft_putchar_fd.c.o: ../libft.h
+
+CMakeFiles/libft.dir/ft_putendl.c.o: ../ft_putendl.c
+CMakeFiles/libft.dir/ft_putendl.c.o: ../libft.h
+
+CMakeFiles/libft.dir/ft_putendl_fd.c.o: ../ft_putendl_fd.c
+CMakeFiles/libft.dir/ft_putendl_fd.c.o: ../libft.h
+
+CMakeFiles/libft.dir/ft_putnbr.c.o: ../ft_putnbr.c
+CMakeFiles/libft.dir/ft_putnbr.c.o: ../libft.h
+
+CMakeFiles/libft.dir/ft_putnbr_fd.c.o: ../ft_putnbr_fd.c
+CMakeFiles/libft.dir/ft_putnbr_fd.c.o: ../libft.h
+
 CMakeFiles/libft.dir/ft_putstr.c.o: ../ft_putstr.c
 CMakeFiles/libft.dir/ft_putstr.c.o: ../libft.h
+
+CMakeFiles/libft.dir/ft_putstr_fd.c.o: ../ft_putstr_fd.c
+CMakeFiles/libft.dir/ft_putstr_fd.c.o: ../libft.h
 
 CMakeFiles/libft.dir/ft_strcat.c.o: ../ft_strcat.c
 CMakeFiles/libft.dir/ft_strcat.c.o: ../libft.h

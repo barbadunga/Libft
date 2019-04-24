@@ -14,10 +14,10 @@
 
 void	*ft_memchr(const void *str, int c, size_t n)
 {
-	char *ptr;
+	char	*ptr;
 
 	ptr = (char*)str;
-	while (--n > 0 &&  *ptr != c)
+	while (--n > 0 && *ptr != c)
 		ptr++;
 	if (*ptr == c)
 		return ((void*)ptr);
