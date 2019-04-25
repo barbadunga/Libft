@@ -17,9 +17,9 @@ void	*ft_memchr(const void *str, int c, size_t n)
 	char	*ptr;
 
 	ptr = (char*)str;
-	while (--n > 0 && *ptr != c)
+	while (--n > 0 && *ptr != (char)c)
 		ptr++;
-	if (*ptr == c)
+	if (*ptr == (char)c)
 		return ((void*)ptr);
 	return (NULL);
 }

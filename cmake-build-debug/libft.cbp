@@ -107,7 +107,22 @@
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_itoa.c">
 			<Option target="libft"/>
 		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_lstadd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_lstcat.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_lstdel.c">
+			<Option target="libft"/>
+		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_lstdelone.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_lstiter.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_lstmap.c">
 			<Option target="libft"/>
 		</Unit>
 		<Unit filename="/Users/mshagga/CLionProjects/libft/ft_lstnew.c">

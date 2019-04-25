@@ -28,6 +28,24 @@ CMakeFiles/libft.dir/ft_isspace.c.o
 CMakeFiles/libft.dir/ft_itoa.c.o
  /Users/mshagga/CLionProjects/libft/ft_itoa.c
  /Users/mshagga/CLionProjects/libft/libft.h
+CMakeFiles/libft.dir/ft_lstadd.c.o
+ /Users/mshagga/CLionProjects/libft/ft_lstadd.c
+ /Users/mshagga/CLionProjects/libft/libft.h
+CMakeFiles/libft.dir/ft_lstcat.c.o
+ /Users/mshagga/CLionProjects/libft/ft_lstcat.c
+ /Users/mshagga/CLionProjects/libft/libft.h
+CMakeFiles/libft.dir/ft_lstdel.c.o
+ /Users/mshagga/CLionProjects/libft/ft_lstdel.c
+ /Users/mshagga/CLionProjects/libft/libft.h
+CMakeFiles/libft.dir/ft_lstdelone.c.o
+ /Users/mshagga/CLionProjects/libft/ft_lstdelone.c
+ /Users/mshagga/CLionProjects/libft/libft.h
+CMakeFiles/libft.dir/ft_lstiter.c.o
+ /Users/mshagga/CLionProjects/libft/ft_lstiter.c
+ /Users/mshagga/CLionProjects/libft/libft.h
+CMakeFiles/libft.dir/ft_lstmap.c.o
+ /Users/mshagga/CLionProjects/libft/ft_lstmap.c
+ /Users/mshagga/CLionProjects/libft/libft.h
 CMakeFiles/libft.dir/ft_lstnew.c.o
  /Users/mshagga/CLionProjects/libft/ft_lstnew.c
  /Users/mshagga/CLionProjects/libft/libft.h

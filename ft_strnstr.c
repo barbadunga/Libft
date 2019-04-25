@@ -22,7 +22,7 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t len)
 	p2 = (char*)s2;
 	if (!*p2)
 		return (p1);
-	while (*p1 && len--)
+	while (*p1 && len)
 	{
 		if (*p1 != *p2)
 			p1++;
@@ -30,12 +30,15 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t len)
 		{
 			match = p1;
 			while (*p2++ == *p1++ && len--)
+			{
 				if (*p2 == '\0')
 					return (match);
+			}
 			p2 = (char*)s2;
 			p1 = match + 1;
 			len += p1 - match;
 		}
+		len--;
 	}
 	return (NULL);
 }
