@@ -35,8 +35,8 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t len)
 					return (match);
 			}
 			p2 = (char*)s2;
-			p1 = match + 1;
 			len += p1 - match;
+			p1 = match + 1;
 		}
 		len--;
 	}
