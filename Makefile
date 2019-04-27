@@ -73,6 +73,7 @@ SOURCES = ft_atoi.c \
     ft_lstiter.c \
     ft_lstmap.c \
     ft_lstcat.c \
+    ft_memdup.c \
 
 OBJECTS = $(SOURCES:%.c=%.o)
 

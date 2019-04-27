@@ -1,26 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstnew.c                                        :+:      :+:    :+:   */
+/*   ft_memdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mshagga <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: AlexandrSergeev <marvin@42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/24 12:44:49 by mshagga           #+#    #+#             */
-/*   Updated: 2019/04/24 12:44:49 by mshagga          ###   ########.fr       */
+/*   Created: 2019/04/27 15:05:06 by AlexandrSergeev   #+#    #+#             */
+/*   Updated: 2019/04/27 15:05:06 by AlexandrSergeev  ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list	*ft_lstnew(void const *content, size_t content_size)
+void	*ft_memdup(const void *src, size_t n)
 {
-	t_list	*new;
+	char	*new;
+	char	*ptr;
 
-	if (!(new = (t_list*)malloc(sizeof(*new))))
+	if (!(new = (char*)malloc(n)))
 		return (NULL);
-	new->content = (content ? ft_memdup(content, content_size) : NULL);
-	new->content_size = (content ? content_size : 0);
-	new->next = NULL;
-	return (new);
+	ptr = (char*)src;
+	while (n--)
+		new[n] = ptr[n];
+	return ((void*)new);
 }
-
