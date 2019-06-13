@@ -23,6 +23,7 @@ typedef struct	s_list
 	struct s_list	*next;
 }				t_list;
 
+<<<<<<< HEAD
 typedef struct	s_vec
 {
 	void		*data;
@@ -31,6 +32,8 @@ typedef struct	s_vec
 	int			type;
 }				t_vec;
 
+=======
+>>>>>>> 5f2008fc88da11c90d1a3a2b95c1d202b3ec890c
 void			ft_bzero(void *str, size_t n);
 void			ft_putchar(char c);
 void			ft_putstr(char const *str);
@@ -47,7 +50,11 @@ int				ft_strcmp(const char *s1, const char *s2);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
 int				ft_atoi(const char *str);
 void			*ft_memcpy(void *dst, const void *src, size_t n);
+<<<<<<< HEAD
 void			*ft_memccpy(void *dst, const void *src, int c, size_t n);
+=======
+void			*ft_memccpy(void *dst, void *src, int c, size_t n);
+>>>>>>> 5f2008fc88da11c90d1a3a2b95c1d202b3ec890c
 void			*ft_memset(void *b, int c, size_t len);
 void			*ft_memmove(void *dst, const void *src, size_t len);
 void			*ft_memchr(const void *s, int c, size_t n);
@@ -93,6 +100,7 @@ void			ft_lstadd(t_list **alst, t_list *new);
 void			ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list			*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 
+<<<<<<< HEAD
 void			ft_vec_del(t_vec **vec);
 t_vec			*ft_vec_add(t_vec **vec, void *item);
 t_vec			*ft_vec_init(size_t size, int type);
@@ -102,5 +110,10 @@ void			ft_lstcat(t_list **alst, t_list *new);
 int				ft_isspace(int c);
 void			*ft_memdup(const void *src, size_t n);
 char			*ft_realloc_str(char **s_old, size_t len);
+=======
+void			ft_lstcat(t_list **alst, t_list *new);
+int				ft_isspace(int c);
+void			*ft_memdup(const void *src, size_t n);
+>>>>>>> 5f2008fc88da11c90d1a3a2b95c1d202b3ec890c
 
 #endif

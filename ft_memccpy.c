@@ -12,7 +12,11 @@
 
 #include "libft.h"
 
+<<<<<<< HEAD
 void	*ft_memccpy(void *dst, const void *src, int c, size_t n)
+=======
+void	*ft_memccpy(void *dst, void *src, int c, size_t n)
+>>>>>>> 5f2008fc88da11c90d1a3a2b95c1d202b3ec890c
 {
 	unsigned char *dst8;
 	unsigned char *src8;

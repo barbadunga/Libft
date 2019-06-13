@@ -11,6 +11,10 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+<<<<<<< HEAD
+=======
+#include <stdio.h>
+>>>>>>> 5f2008fc88da11c90d1a3a2b95c1d202b3ec890c
 
 char	*ft_strchr(const char *s, int c)
 {
