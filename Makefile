@@ -12,11 +12,7 @@
 
 CC = gcc
 NAME = libft.a
-<<<<<<< HEAD
 CFLAGS = -Wall -Wextra -Werror -I. -c -g
-=======
-CFLAGS = -Wall -Wextra -Werror -I. -c
->>>>>>> 5f2008fc88da11c90d1a3a2b95c1d202b3ec890c
 SOURCES = ft_atoi.c \
     ft_bzero.c \
     ft_isalnum.c \
@@ -78,14 +74,12 @@ SOURCES = ft_atoi.c \
     ft_lstmap.c \
     ft_lstcat.c \
     ft_memdup.c \
-<<<<<<< HEAD
     ft_realloc_str.c \
     ft_vec_add.c  \
     ft_vec_del.c  \
     ft_vec_init.c  \
     ft_vec_resize.c \
-=======
->>>>>>> 5f2008fc88da11c90d1a3a2b95c1d202b3ec890c
+    get_next_line.c \
 
 OBJECTS = $(SOURCES:%.c=%.o)
 

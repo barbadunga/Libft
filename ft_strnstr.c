@@ -30,15 +30,8 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t len)
 		{
 			match = p1;
 			while (*p2++ == *p1++ && len--)
-<<<<<<< HEAD
 				if (*p2 == '\0')
 					return (match);
-=======
-			{
-				if (*p2 == '\0')
-					return (match);
-			}
->>>>>>> 5f2008fc88da11c90d1a3a2b95c1d202b3ec890c
 			p2 = (char*)s2;
 			len += p1 - match;
 			p1 = match + 1;
