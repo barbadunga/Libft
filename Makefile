@@ -80,6 +80,7 @@ SOURCES = ft_atoi.c \
     ft_vec_init.c  \
     ft_vec_resize.c \
     get_next_line.c \
+    ft_tolowercase.c \
 
 OBJECTS = $(SOURCES:%.c=%.o)
 
