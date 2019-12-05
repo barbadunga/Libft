@@ -110,5 +110,5 @@ int				ft_isspace(int c);
 void			*ft_memdup(const void *src, size_t n);
 char			*ft_realloc_str(char **s_old, size_t len);
 int				get_next_line(int fd, char **line);
-
+int				*ft_insort(int *data, size_t len);
 #endif
